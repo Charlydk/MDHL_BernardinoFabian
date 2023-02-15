@@ -115,6 +115,11 @@ a:hover{
 }
 
 
+th, td {
+	border: 1px solid #000;
+ }
+
+
 aside{
 	background: url(./assets/Logo);
 	background-repeat: no-repeat;
