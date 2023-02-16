@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios, mapas y +</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p style="color:red;"><strong>* Datos obligatorios</strong></p>
+    <form action="./show_data.html">
+        <fieldset>
+            <legend>Personal Date</legend>
+            <label for="apenom">Players First name:</label>
+            <input name="FirstName" maxlength="80" type="text" id="apenom"><span style="color:red;">*</span>
+            <br>
+            <label>
+                Last name:
+                <input name="LastName" type="text">
+            </label><br>
+            <label>
+                Street Address:
+                <input name="Street" type="text">
+            </label><br>
+            <label>
+                City:
+                <input name="City" type="text">
+            </label><br>
+            <label>
+                Zip Code:
+                <input name="Zip" type="number">
+            </label><br>
+            <label>
+                Birth Date:
+                <input name="Birth_Date" type="date">
+            </label><br>
+            <p>Gender</p>
+            <label>
+                Female:
+                <input name="gender" type="radio" value="R">
+                Male:
+                <input name="gender" type="radio" value="R">
+            </label>
+            <p>Grade</p>
+            <label>
+                Pre-school:
+                <input name="grade" type="checkbox" value="P">
+            </label>
+            <label>
+                1st:
+                <input name="grade" type="checkbox" value="1">
+            </label>
+            <label>
+                2nd:
+                <input name="grade" type="checkbox" value="2">
+            </label>
+            <label>
+                3rd:
+                <input name="grade" type="checkbox" value="3">
+            </label>
+            <label>
+                4th:
+                <input name="grade" type="checkbox" value="4">
+            </label>
+            <label>
+                5th:
+                <input name="grade" type="checkbox" value="5">
+            </label>
+
+
+            
+            <fieldset>
+                <legend>Which Elementary school do you live near ?</legend>
+                <p>Closest School</p>
+                <label>
+                    AJ Katzenmaier:
+                    <input name="School" type="checkbox" value="AJ Katzenmaier">
+                </label>
+                <label>
+                    Greenday:
+                    <input name="School" type="checkbox" value="Greenday">
+                </label>
+                <label>
+                    Howard A Yeager:
+                    <input name="School" type="checkbox" value="Howard A Yeager">
+                </label>
+                <label>
+                    marjorie P Hart:
+                    <input name="School" type="checkbox" value="marjorie P Hart">
+                </label>
+                <label>
+                    North Elementary:
+                    <input name="School" type="checkbox" value=" North Elementary">
+                </label>
+                <label>
+                    South Elementary:
+                    <input name="School" type="checkbox" value=" South Elementary">
+                </label>
+               
+            </fieldset>
+
+            <fieldset>
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                
+                <label>
+                    Forward:
+                    <input name="Forward" type="checkbox" value="AJ Katzenmaier">
+                </label>
+                <label>
+                    Midfield:
+                    <input name="Midfield" type="checkbox" value="Greenday">
+                </label>
+                <label>
+                    Defense:
+                    <input name="Defense" type="checkbox" value="Howard A Yeager">
+                </label>
+                <label>
+                    Goalkeeper:
+                    <input name="Goalkeeper" type="checkbox" value="marjorie P Hart">
+                </label>          
+            </fieldset>
+
+            <fieldset>
+                <legend>Uniform size:</legend>
+                                            
+                <select name="Size" id="">
+                    <option disabled selected>Seleccione una opcion</option>
+                    <option value="YS">Youth small</option>
+                    <option value="YM">Youth Medium</option>
+                    <option value="YL">Youth Large</option>
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                    <option value="EL">Extra-Large</option>
+                </select>
+            </fieldset>
+
+                
+        <button>Send</button>
+    </fieldset>
+    </body>
+</html>
