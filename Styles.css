@@ -92,7 +92,7 @@ a:hover{
 #cuerpo{	
 	background-color:tomato;
 	height:1000px;
-	flex: 4 auto;
+	flex: 7;
 
 }
 
@@ -111,6 +111,7 @@ iframe{
 .eventos{
 	display: flex;
 	flex-direction: row;
+	justify-content: center ; 
 	margin: 5%;
 	padding: 10px;
 	background-color: rgb(71, 165, 194);
@@ -139,7 +140,7 @@ aside{
 	background-size: cover;
 	background-size: 100%;
 	background-position: center;
-	height:500px;
+	height:200px;
 	width: 150PX;
 	line-height:500px;
 	flex: 1 auto;
@@ -171,6 +172,11 @@ fieldset{
 	font-size: 30px;
 }
 fieldset > label{
+	margin: 10px;
+	font-size: 20px;
+}
+
+fieldset > div{
 	margin: 10px;
 	font-size: 20px;
 }
