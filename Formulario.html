@@ -4,47 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios, mapas y +</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Registration Form</h1>
-    <p style="color:red;"><strong>* Datos obligatorios</strong></p>
+    
     <form action="./show_data.html">
-        <fieldset>
+        <fieldset class="fieldset-container">
             <legend>Personal Date</legend>
+
+           
             <label for="apenom">Players First name:</label>
-            <input name="FirstName" maxlength="80" type="text" id="apenom"><span style="color:red;">*</span>
-            <br>
+            <input name="FirstName" maxlength="80" type="text" id="apenom">
+            
             <label>
                 Last name:
                 <input name="LastName" type="text">
-            </label><br>
+            </label>
             <label>
                 Street Address:
                 <input name="Street" type="text">
-            </label><br>
+            </label>
             <label>
                 City:
                 <input name="City" type="text">
-            </label><br>
+            </label>
             <label>
                 Zip Code:
                 <input name="Zip" type="number">
-            </label><br>
+            </label>
             <label>
                 Birth Date:
                 <input name="Birth_Date" type="date">
-            </label><br>
-            <p>Gender</p>
+            </label>
+            
             <label>
+                <p>Gender</p>
                 Female:
                 <input name="gender" type="radio" value="R">
                 Male:
                 <input name="gender" type="radio" value="R">
             </label>
-            <p>Grade</p>
             <label>
+            <label>
+                <p>Grade</p>
                 Pre-school:
                 <input name="grade" type="checkbox" value="P">
             </label>
@@ -69,13 +73,15 @@
                 <input name="grade" type="checkbox" value="5">
             </label>
 
-
+        </label>
             
             <fieldset>
                 <legend>Which Elementary school do you live near ?</legend>
+                
+               <label>
                 <p>Closest School</p>
                 <label>
-                    AJ Katzenmaier:
+                    AJKatzenmaier:
                     <input name="School" type="checkbox" value="AJ Katzenmaier">
                 </label>
                 <label>
@@ -83,22 +89,23 @@
                     <input name="School" type="checkbox" value="Greenday">
                 </label>
                 <label>
-                    Howard A Yeager:
+                    HowardAYeager:
                     <input name="School" type="checkbox" value="Howard A Yeager">
                 </label>
                 <label>
-                    marjorie P Hart:
+                    marjoriePHart:
                     <input name="School" type="checkbox" value="marjorie P Hart">
                 </label>
                 <label>
-                    North Elementary:
+                    NorthElementary:
                     <input name="School" type="checkbox" value=" North Elementary">
                 </label>
                 <label>
-                    South Elementary:
+                    SouthElementary:
                     <input name="School" type="checkbox" value=" South Elementary">
                 </label>
-               
+            </label>
+            
             </fieldset>
 
             <fieldset>
@@ -137,8 +144,11 @@
                 </select>
             </fieldset>
 
-                
-        <button>Send</button>
+        
+        <button class="btn">Send</button>
+
     </fieldset>
+
+    </form>
     </body>
 </html>
